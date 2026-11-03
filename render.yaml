@@ -2,6 +2,7 @@ services:
   - type: web
     name: launchpad
     runtime: python
+    plan: free
     buildCommand: ""
     startCommand: python launchpad.py
     healthCheckPath: /api/health
