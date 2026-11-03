@@ -2,7 +2,7 @@ Launchpad
 
 Run locally:  py launchpad.py   (Python 3.10+, no installs)
 Open: http://localhost:8765
-Public hosting: this folder includes `render.yaml` for Render. Push the folder to a GitHub repository, create a Render Web Service from that repository, and use the included Blueprint. The service listens on Render's `PORT` and stores SQLite data on a persistent `/var/data` disk.
+Public hosting: this folder includes `render.yaml` for Render. Push the folder to a GitHub repository, create a Render Web Service from that repository, and use the included Blueprint. The service listens on Render's `PORT`. The free Render instance uses ephemeral SQLite storage, so live listings repopulate on restart but application statuses and notes do not persist; attach a paid persistent disk later if you need that.
 Sync order: known employers first, then a one-off search for new employers from firm_names.txt (Name|eng or Name|fin).
 The app keeps the last verified listings when a source is temporarily empty or unavailable; explicitly closed postings are removed. Finance shows quant/trading spring-week and insight-style openings rather than summer-internship rows.
 Each run also reads Trackr's public UK Engineering 2027 summer-internship and UK Finance 2027 spring-week feeds, follows only public HTTPS employer links, and skips LinkedIn URLs.
