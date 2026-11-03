@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+launchpad.sqlite3
+launchpad.sqlite3-shm
+launchpad.sqlite3-wal
+.idea/

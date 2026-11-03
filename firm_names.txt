@@ -1,0 +1,63 @@
+Shell|eng
+Rolls-Royce|eng
+MBDA|eng
+BAE Systems|eng
+Babcock|eng
+Boeing|eng
+AWE|eng
+Leonardo|eng
+QinetiQ|eng
+Raytheon|eng
+Thales|eng
+GE Aerospace|eng
+Honeywell|eng
+NATS|eng
+Open Cosmos|eng
+Vertical Aerospace|eng
+Aston Martin|eng
+McLaren Automotive|eng
+Nissan|eng
+AECOM|eng
+Arcadis|eng
+Mott MacDonald|eng
+Balfour Beatty|eng
+Arm|eng
+Analog Devices|eng
+Cambridge Consultants|eng
+Graphcore|eng
+Sellafield|eng
+Johnson Matthey|eng
+Fluor|eng
+KBR|eng
+Arup|eng
+Buro Happold|eng
+GKN Aerospace|eng
+Reaction Engines|eng
+Marshall Aerospace|eng
+Frazer-Nash Consultancy|eng
+Jane Street|fin
+Optiver|fin
+IMC Trading|fin
+DRW|fin
+Susquehanna|fin
+Citadel Securities|fin
+G-Research|fin
+XTX Markets|fin
+Man Group|fin
+Hudson River Trading|fin
+Jump Trading|fin
+Flow Traders|fin
+Two Sigma|fin
+Squarepoint Capital|fin
+Tower Research Capital|fin
+Virtu Financial|fin
+Akuna Capital|fin
+Maven Securities|fin
+Millennium|fin
+SLB|eng
+Siemens Gamesa|eng
+Zeeco|eng
+SSE|eng
+AtkinsRealis|eng
+PA Consulting|eng
+LSEG|fin

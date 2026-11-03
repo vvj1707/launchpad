@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: launchpad
+    runtime: python
+    buildCommand: ""
+    startCommand: python launchpad.py
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: LAUNCHPAD_DB
+        value: /var/data/launchpad.sqlite3
+    disk:
+      name: launchpad-data
+      mountPath: /var/data
+      sizeGB: 1
